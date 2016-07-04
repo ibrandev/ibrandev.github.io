@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ibrandev</title>
+  
+  <link href="/assets/css/semantic.min.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/assets/css/syntax.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/assets/css/style.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/assets/css/jquery.fullpage.min.css" rel="stylesheet" type="text/css" media="all">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/semantic.min.js"></script>
+  <script src="/assets/js/jquery.fullpage.min.js"></script>
+</head>
+
+<body class="navigating">
+
+  <style type="text/css">
+  .section {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+</style>
+
+<div class="container">
+  <div id="fullpage">
+    <div class="section" style="background-image: url('/assets/img/01.jpg')"></div>
+    <div class="section" style="background-image: url('/assets/img/02.jpg')"></div>
+    <div class="section" style="background-image: url('/assets/img/03.jpg')"></div>
+    <div class="section" style="background-image: url('/assets/img/04.jpg')"></div>
+    <div class="section" style="background-image: url('/assets/img/05.jpg')"></div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function(){
+    $('#fullpage').fullpage({
+      scrollingSpeed: 1000,
+      navigation: true
+    })
+  });
+</script>
+
+
+</body>
+
+</html>
