@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Ibrandev</title>
+  <title>iBranDev</title>
   
   <link href="/assets/css/semantic.min.css" rel="stylesheet" type="text/css" media="all">
   <link href="/assets/css/syntax.css" rel="stylesheet" type="text/css" media="all">
@@ -18,21 +18,20 @@
 
   <style type="text/css">
   .section {
-    display: table-cell;
     vertical-align: middle;
     text-align: center;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
   }
 </style>
 
 <div class="container">
   <div id="fullpage">
-    <div class="section" style="background-image: url('/assets/img/01.jpg')"></div>
-    <div class="section" style="background-image: url('/assets/img/02.jpg')"></div>
-    <div class="section" style="background-image: url('/assets/img/03.jpg')"></div>
-    <div class="section" style="background-image: url('/assets/img/04.jpg')"></div>
-    <div class="section" style="background-image: url('/assets/img/05.jpg')"></div>
+    <div class="section" style="background-image: url('/assets/img/01.png')"></div>
+    <div class="section" style="background-image: url('/assets/img/02.png')"></div>
+    <div class="section" style="background-image: url('/assets/img/03.png')"></div>
+    <div class="section" style="background-image: url('/assets/img/04.png')"></div>
   </div>
 </div>
 
@@ -40,7 +39,9 @@
   $(document).ready(function(){
     $('#fullpage').fullpage({
       scrollingSpeed: 1000,
-      navigation: true
+      navigation: true,
+      responsiveWidth: 800,
+      responsiveHeight: 500
     })
   });
 </script>
