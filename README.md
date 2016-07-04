@@ -1,6 +1,3 @@
-# 项目
-- 新声音科技有限公司官方网站 http://xinshengyin.com
-
 ## 技术环境
 
 - 技术框架：[jekyll](http://jekyllrb.com)
